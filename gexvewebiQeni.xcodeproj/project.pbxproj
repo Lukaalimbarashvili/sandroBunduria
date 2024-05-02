@@ -22,6 +22,7 @@
 		CE51DE7C2BE14286002C0019 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51DE7B2BE14286002C0019 /* MovieResponse.swift */; };
 		CE51DE7E2BE147A0002C0019 /* HeaderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51DE7D2BE147A0002C0019 /* HeaderTableCell.swift */; };
 		CEA7B23B2BE41E280086BD37 /* mergeConflict.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7B23A2BE41E280086BD37 /* mergeConflict.swift */; };
+		CEA7B23D2BE41F0F0086BD37 /* supanigaaaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7B23C2BE41F0F0086BD37 /* supanigaaaa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		CE51DE7B2BE14286002C0019 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 		CE51DE7D2BE147A0002C0019 /* HeaderTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableCell.swift; sourceTree = "<group>"; };
 		CEA7B23A2BE41E280086BD37 /* mergeConflict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeConflict.swift; sourceTree = "<group>"; };
+		CEA7B23C2BE41F0F0086BD37 /* supanigaaaa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supanigaaaa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				CE51DE6C2BE000D8002C0019 /* TableCollectionViewCell.swift */,
 				CE51DE6A2BE00081002C0019 /* CollectionTableViewCell.swift */,
 				CEA7B23A2BE41E280086BD37 /* mergeConflict.swift */,
+				CEA7B23C2BE41F0F0086BD37 /* supanigaaaa.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				CE51DE712BE020A4002C0019 /* NetworkManager.swift in Sources */,
 				CE51DE7C2BE14286002C0019 /* MovieResponse.swift in Sources */,
 				CE51DE7E2BE147A0002C0019 /* HeaderTableCell.swift in Sources */,
+				CEA7B23D2BE41F0F0086BD37 /* supanigaaaa.swift in Sources */,
 				CE51DE6D2BE000D8002C0019 /* TableCollectionViewCell.swift in Sources */,
 				CE51DE6B2BE00081002C0019 /* CollectionTableViewCell.swift in Sources */,
 			);
