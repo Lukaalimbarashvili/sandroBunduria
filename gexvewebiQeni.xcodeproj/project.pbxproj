@@ -21,6 +21,7 @@
 		CE51DE7A2BE14278002C0019 /* MovieNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51DE792BE14277002C0019 /* MovieNetworkManager.swift */; };
 		CE51DE7C2BE14286002C0019 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51DE7B2BE14286002C0019 /* MovieResponse.swift */; };
 		CE51DE7E2BE147A0002C0019 /* HeaderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51DE7D2BE147A0002C0019 /* HeaderTableCell.swift */; };
+		CEA7B23B2BE41E280086BD37 /* mergeConflict.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7B23A2BE41E280086BD37 /* mergeConflict.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		CE51DE792BE14277002C0019 /* MovieNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNetworkManager.swift; sourceTree = "<group>"; };
 		CE51DE7B2BE14286002C0019 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 		CE51DE7D2BE147A0002C0019 /* HeaderTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableCell.swift; sourceTree = "<group>"; };
+		CEA7B23A2BE41E280086BD37 /* mergeConflict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeConflict.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				CE51DE7D2BE147A0002C0019 /* HeaderTableCell.swift */,
 				CE51DE6C2BE000D8002C0019 /* TableCollectionViewCell.swift */,
 				CE51DE6A2BE00081002C0019 /* CollectionTableViewCell.swift */,
+				CEA7B23A2BE41E280086BD37 /* mergeConflict.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				CE51DE7A2BE14278002C0019 /* MovieNetworkManager.swift in Sources */,
 				CE51DE5B2BE00040002C0019 /* ViewController.swift in Sources */,
 				CE51DE572BE00040002C0019 /* AppDelegate.swift in Sources */,
+				CEA7B23B2BE41E280086BD37 /* mergeConflict.swift in Sources */,
 				CE51DE592BE00040002C0019 /* SceneDelegate.swift in Sources */,
 				CE51DE712BE020A4002C0019 /* NetworkManager.swift in Sources */,
 				CE51DE7C2BE14286002C0019 /* MovieResponse.swift in Sources */,
