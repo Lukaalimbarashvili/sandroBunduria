@@ -95,7 +95,7 @@ class CollectionTableViewCell: UITableViewCell {
     func fetchTheCharches() {
         RAMNetworkManager.fetchCharacters { response, error in
             DispatchQueue.main.async {
-                if let error = error {
+                if error != nil {
                     return
                 }
                 if let myResponse = response  {
@@ -109,7 +109,7 @@ class CollectionTableViewCell: UITableViewCell {
     func fetchTheMovies() {
         MovieNetworkManager.fetchMovies { response, error in
             DispatchQueue.main.async {
-                if let error = error {
+                if error != nil {
                     return
                 }
                 if let myResponse = response  {
@@ -141,5 +141,9 @@ extension CollectionTableViewCell: UICollectionViewDelegate, UICollectionViewDat
             cell.myImageView.kf.setImage(with: URL(string: "https://image.tmdb.org/t/p/w500\(MovieCharacter[indexPath.row].poster_path)" ))
         }
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        collectionView.backgroundColor = .darkGray
     }
 }
